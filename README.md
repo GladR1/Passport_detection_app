@@ -10,6 +10,7 @@ source .venv/bin/activate    # для Linux
 .venv\Scripts\activate       # для Windows
 pip install -r requirements.txt
 Установить последнюю версию tesseract (https://github.com/UB-Mannheim/tesseract/wiki)
+скачать модели по ссылке https://disk.yandex.ru/d/AcxtV3xZl6-sGQ и положить их в папку \models
 
 # Запуск
 python run.py
