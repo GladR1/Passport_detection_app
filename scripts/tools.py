@@ -89,4 +89,4 @@ def find_last_slash_index(path: str) -> int:
         int | None: Индекс последнего слеша или None, если слешей нет
     """
     last_slash = max(path.rfind('/'), path.rfind('\\'))
-    return last_slash if last_slash != -1 else None
+    return last_slash

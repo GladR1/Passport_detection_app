@@ -1,8 +1,9 @@
 from pytesseract import Output
 import pytesseract
 import cv2
+from scripts.tesseract_path import TESSERACT_PATH
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 def tesseract_ocr(
     image: cv2.Mat,
