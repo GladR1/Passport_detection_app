@@ -9,6 +9,7 @@ source .venv/bin/activate    # для Linux
 # или
 .venv\Scripts\activate       # для Windows
 pip install -r requirements.txt
+Установить последнюю версию https://github.com/UB-Mannheim/tesseract/wiki
 
 # Запуск
 python run.py
