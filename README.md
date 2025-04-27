@@ -14,6 +14,10 @@ pip install -r requirements.txt
 
 # Запуск
 python run.py
+    "Введите путь к 3 странице паспорта"
+     foma.jpg (пример)
+     "Обработка завершена. Результаты сохранены в папке processed_passports."
+      
 
 # Структура проекта
 models/ — предобученные модели.
