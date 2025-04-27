@@ -10,6 +10,8 @@ source .venv/bin/activate    # для Linux
 .venv\Scripts\activate       # для Windows
 pip install -r requirements.txt
 Установить последнюю версию tesseract (https://github.com/UB-Mannheim/tesseract/wiki)
+        {Предполагается что установленное приложение будет иметь путь C:\Program Files\Tesseract-OCR\tesseract.exe
+         Если это не так, требуется указать путь к файлу tesseract.exe}
 скачать модели по ссылке https://disk.yandex.ru/d/AcxtV3xZl6-sGQ и положить их в папку \models
 
 # Запуск
