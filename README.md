@@ -3,7 +3,7 @@
 ```bash
 #Установка
 git clone https://github.com/GladR1/Passport_detection_app.git
-cd <папка проекта>
+cd passport_detection_app
 python -m venv .venv
 source .venv/bin/activate    # для Linux
 # или
