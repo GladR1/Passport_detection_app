@@ -3,7 +3,7 @@ import cv2
 from pathlib import Path
 import json 
 
-def crop_xyxyn(image:np.ndarray, bbox_xyxyn: list | tuple) -> np.ndarray:
+def crop_xyxyn(image:np.ndarray, bbox_xyxyn: np.ndarray) -> np.ndarray:
     """
     Обрезает изображение по bounding box в формате xyxyn (нормализованные координаты).
     
@@ -78,7 +78,7 @@ def save_to_json(data, filename):
     except Exception as e:
         print(f"Ошибка при сохранении: {e}")
 
-def find_last_slash_index(path: str) -> int | None:
+def find_last_slash_index(path: str) -> int:
     """
     Находит последний индекс символа '/' или '\\' в строке.
     
